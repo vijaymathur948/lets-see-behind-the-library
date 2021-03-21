@@ -116,7 +116,11 @@ class SourceCode extends Component {
 
               <Accordion.Collapse
                 eventKey='0'
-                style={{ backgroundColor: "black" }}
+                style={{
+                  backgroundColor: "black",
+                  height: "500px",
+                  overflow: "scroll",
+                }}
               >
                 <Card.Body>
                   {this.state.objectMapping[this.state.elementName] &&
