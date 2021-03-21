@@ -52,7 +52,7 @@ class SourceCode extends Component {
     return (
       <div className='container' style={{ marginTop: "50px" }}>
         <h1 style={{ textAlign: "center", fontSize: "50px" }}>
-          Let's see behind the Code
+          Let's see behind the library
         </h1>
 
         <Row className='my-3'>
